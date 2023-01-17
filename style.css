@@ -3,11 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  position: absolute;
+  width: 1920px;
+  height: 4002px;
+  left: 0px;
+  top: 0px;
+
+  background: #14110e;
+}
 
 @font-face {
   font-family: Inter;
   src: url(./fonts/Inter-Light.eot) url(./fonts/Inter-Light.woff)
     url(./fonts/Inter-Light.ttf) url(./fonts/Inter-Light.woff2);
+}
+
+@font-face {
+  font-family: Righteous;
+  src: url(./fonts/Righteous-Regular.eot) url(./fonts/Righteous-Regular.woff)
+    url(./fonts/Righteous-Regular.woff2) url(./fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Urbanist;
+  src: url(./fonts/Urbanist-Thin.eot) url(./fonts/Urbanist-Thin.woff)
+    url(./fonts/Urbanist-Thin.woff2) url(./fonts/Urbanist-Thin.ttf);
 }
 
 /* Header */
@@ -126,5 +147,64 @@ header {
   height: 30px;
   left: 387px;
 }
-
 /*/ Header */
+
+/* First section */
+.main__section {
+  height: 1126px;
+  background-image: url(./imgs/mainpagephoto.png);
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1920px;
+}
+
+.main__section h1 {
+  font-family: Righteous, cursive;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 130%;
+  position: absolute;
+  width: 529px;
+  height: 188px;
+  left: 375px;
+  top: 272px;
+}
+
+.main__section p {
+  color: #ffffff;
+  font-family: Urbanist, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: capitalize;
+  position: absolute;
+  width: 511px;
+  height: 72px;
+  left: 375px;
+  top: 492px;
+}
+
+.main__section button {
+  display: flex;
+  align-items: center;
+  padding: 24px 40px;
+
+  position: absolute;
+  width: 208px;
+  height: 70px;
+  left: 375px;
+  top: 628px;
+  background: #c99e71;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+/*/ First section */
