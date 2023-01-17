@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/interfont/Inter-Light.eot)
+    url(./fonts/interfont/Inter-Light.ttf)
+    url(./fonts/interfont/Inter-Light.woff)
+    url(./fonts/interfont/Inter-Light.woff2)
+    url(./fonts/interfont/Inter-Light_1.eot)
+    url(./fonts/interfont/Inter-Light_1.ttf)
+    url(./fonts/interfont/Inter-Light_1.woff)
+    url(./fonts/interfont/Inter-Light_1.woff2);
+}
+
+/* Header */
+header {
+  position: relative;
+  width: 1920px;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+  background: #1c1814;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__1 {
+  position: absolute;
+  width: 397px;
+  height: 22px;
+  left: 300px;
+  top: 51px;
+}
+
+.header__1 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header__1 a:hover {
+  color: #c99e71;
+}
+
+.a__1 {
+  font-family: "Inter";
+}
+
+/*/ Header */
