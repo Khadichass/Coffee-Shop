@@ -6,14 +6,8 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(./fonts/interfont/Inter-Light.eot)
-    url(./fonts/interfont/Inter-Light.ttf)
-    url(./fonts/interfont/Inter-Light.woff)
-    url(./fonts/interfont/Inter-Light.woff2)
-    url(./fonts/interfont/Inter-Light_1.eot)
-    url(./fonts/interfont/Inter-Light_1.ttf)
-    url(./fonts/interfont/Inter-Light_1.woff)
-    url(./fonts/interfont/Inter-Light_1.woff2);
+  src: url(./fonts/Inter-Light.eot) url(./fonts/Inter-Light.woff)
+    url(./fonts/Inter-Light.ttf) url(./fonts/Inter-Light.woff2);
 }
 
 /* Header */
