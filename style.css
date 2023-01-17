@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  position: absolute;
+  position: relative;
   width: 1920px;
   height: 4002px;
   left: 0px;
@@ -208,3 +208,9 @@ header {
 }
 
 /*/ First section */
+
+/* Second section */
+.second__section {
+  width: 80%;
+}
+/*/ Second section */
