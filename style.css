@@ -210,6 +210,7 @@ header {
 /*/ First section */
 
 /* Second section */
+
 .second__section {
   width: 80%;
   margin: 0 auto;
@@ -309,3 +310,90 @@ header {
   left: 1179px;
 }
 /*/ Second section */
+
+/* Third section */
+.third__section {
+  margin: 0 auto;
+  width: 80%;
+  position: absolute;
+  width: 1170px;
+  height: 635px;
+  left: 375px;
+  top: 1728px;
+  display: flex;
+}
+
+.left__side {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 32px;
+  margin-right: 32px;
+}
+
+.grid__1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 1;
+  background-image: url(./imgs/third1.png);
+}
+
+.grid__2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+  background-image: url(./imgs/third2.png);
+}
+
+.grid__3 {
+  grid-column: 2 / 2;
+  grid-row: 1 / span 2;
+  background-image: url(./imgs/third3.png);
+}
+.right__side {
+  width: 50%;
+
+  background: #1c1814;
+}
+
+.frst__txt {
+  position: absolute;
+  height: 22px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+  padding: 120px 365px 493px 56px;
+}
+
+.scnd__txt {
+  position: absolute;
+  width: 480px;
+  height: 124px;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #ffffff;
+  padding: 154px 56px 357px 56px;
+}
+.scnd__txt span {
+  display: block;
+}
+
+.thrd__txt {
+  padding: 314px 56px 147px 56px;
+  position: absolute;
+  width: 480px;
+  height: 174px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+}
+/*/ Third section */
