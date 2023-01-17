@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   src: url(./fonts/Inter-Light.eot) url(./fonts/Inter-Light.woff)
     url(./fonts/Inter-Light.ttf) url(./fonts/Inter-Light.woff2);
 }
@@ -29,20 +29,70 @@ header {
   top: 51px;
 }
 
-.header__1 a {
+.header__1 a,
+.header__2 a {
   text-decoration: none;
   color: #ffffff;
   font-size: normal;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 400;
 }
 
 .header__1 a:hover {
   color: #c99e71;
+  font-weight: 700;
+}
+
+.a__1,
+.a__2,
+.a__3,
+.a__4,
+.a__5,
+.a__6,
+.a__7 {
+  font-family: Inter, sans-serif;
+  height: 22px;
 }
 
 .a__1 {
-  font-family: "Inter";
+  position: absolute;
+  width: 52px;
+  left: 0;
+}
+.a__2 {
+  position: absolute;
+  width: 52px;
+  left: 100px;
 }
 
+.a__3 {
+  position: absolute;
+  width: 52px;
+  left: 200px;
+}
+
+.a__4 {
+  position: absolute;
+  width: 101px;
+  left: 296px;
+}
+
+.coffe__logo {
+  position: absolute;
+  left: 878px;
+  right: 970px;
+  top: 32px;
+  bottom: 33px;
+}
+
+.header__2 {
+  position: absolute;
+  width: 417px;
+  height: 30px;
+  left: 1203px;
+  top: 47px;
+  display: flex;
+  align-items: center;
+}
 /*/ Header */
