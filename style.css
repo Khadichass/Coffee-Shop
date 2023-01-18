@@ -397,3 +397,9 @@ header {
   opacity: 0.8;
 }
 /*/ Third section */
+
+@media screen only (max-width: 1400px) {
+  header {
+    position: relative;
+  }
+}
