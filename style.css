@@ -398,8 +398,122 @@ header {
 }
 /*/ Third section */
 
-@media screen only (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
+  /* Header */
   header {
     position: relative;
+    width: 1400px;
+    height: 125px;
+    left: 0px;
+    top: 0px;
+    background: #1c1814;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+
+  .header__1 {
+    position: absolute;
+    width: 397px;
+    height: 22px;
+    left: 300px;
+    top: 51px;
+  }
+
+  .header__1 a,
+  .header__2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  .header__1 a:hover {
+    color: #c99e71;
+    font-weight: 700;
+  }
+
+  .a__1,
+  .a__2,
+  .a__3,
+  .a__4,
+  .a__5,
+  .a__6,
+  .a__7 {
+    font-family: Inter, sans-serif;
+    height: 22px;
+  }
+
+  .a__1 {
+    position: absolute;
+    width: 52px;
+    left: 0;
+  }
+  .a__2 {
+    position: absolute;
+    width: 52px;
+    left: 100px;
+  }
+
+  .a__3 {
+    position: absolute;
+    width: 52px;
+    left: 200px;
+  }
+
+  .a__4 {
+    position: absolute;
+    width: 101px;
+    left: 296px;
+  }
+
+  .coffe__logo {
+    position: absolute;
+    left: 878px;
+    right: 970px;
+    top: 32px;
+    bottom: 33px;
+  }
+
+  .header__2 {
+    position: absolute;
+    width: 417px;
+    height: 30px;
+    left: 1203px;
+    top: 47px;
+    display: flex;
+    align-items: center;
+  }
+
+  .a__5 {
+    position: absolute;
+    width: 53px;
+  }
+
+  .a__6 {
+    position: absolute;
+    width: 44px;
+    left: 101px;
+  }
+
+  .a__7 {
+    position: absolute;
+    width: 68px;
+    left: 193px;
+  }
+
+  .hdicon__1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 309px;
+  }
+
+  .hdicon__2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 387px;
+  }
+  /*/ Header */
 }
