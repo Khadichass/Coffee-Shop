@@ -245,13 +245,13 @@ header {
   width: 177px;
   left: 1221px;
 }
-.scndphoto__1,
-.scndphoto__2,
-.scndphoto__3 {
+.scndphoto__1 img,
+.scndphoto__2 img,
+.scndphoto__3 img {
   width: 366px;
   height: 420px;
   position: absolute;
-  top: 1168px;
+  top: -80px;
 }
 .scndphoto__1 {
   position: absolute;
@@ -355,10 +355,11 @@ header {
 }
 /*/ Third section */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
   /* Header */
   header {
-    max-width: 1400px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .header__1 {
@@ -366,13 +367,13 @@ header {
     height: 22px;
     display: flex;
     gap: 40px;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-top: 51px;
   }
 
   .coffe__logo {
     position: absolute;
-    left: 578px;
+    left: 650px;
     top: 32px;
     bottom: 33px;
   }
@@ -382,7 +383,7 @@ header {
     height: 30px;
     display: flex;
     align-items: center;
-    padding-left: 803px;
+    padding-left: 853px;
     gap: 48px;
   }
 
@@ -399,4 +400,107 @@ header {
   }
 
   /*/ Header */
+
+  /* First section */
+
+  .main__section h1 {
+    font-weight: 400;
+    font-size: 64px;
+    position: absolute;
+    left: 225px;
+    top: 272px;
+  }
+
+  .main__section p {
+    font-size: 20px;
+    position: absolute;
+    left: 225px;
+    top: 472px;
+  }
+
+  .main__section button {
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    width: 170px;
+    left: 225px;
+    top: 608px;
+  }
+
+  /*/ First section */
+
+  /* Second section */
+
+  .scndtxt__1 h2,
+  .scndtxt__2 h2,
+  .scndtxt__3 h2 {
+    font-size: 22px;
+    position: absolute;
+    top: 904px;
+  }
+
+  .scndtxt__1 h2 {
+    position: absolute;
+    width: 24px;
+    left: 145px;
+  }
+
+  .scndtxt__2 h2 {
+    position: absolute;
+    width: 30px;
+    left: 627px;
+  }
+
+  .scndtxt__3 h2 {
+    position: absolute;
+    width: 30px;
+    left: 1039px;
+  }
+
+  .scndtxt__1 h3,
+  .scndtxt__2 h3,
+  .scndtxt__3 h3 {
+    font-size: 22px;
+    top: 904px;
+    height: 30px;
+  }
+
+  .scndtxt__1 h3 {
+    position: absolute;
+    left: 261px;
+  }
+
+  .scndtxt__2 h3 {
+    position: absolute;
+    left: 669px;
+  }
+
+  .scndtxt__3 h3 {
+    position: absolute;
+    left: 1071px;
+  }
+  .scndphoto__1 img,
+  .scndphoto__2 img,
+  .scndphoto__3 img {
+    width: 306px;
+    height: 360px;
+    position: absolute;
+    top: -290px;
+  }
+  .scndphoto__1 {
+    position: absolute;
+    left: 225px;
+  }
+
+  .scndphoto__2 {
+    position: absolute;
+    left: 627px;
+  }
+
+  .scndphoto__3 {
+    position: absolute;
+    left: 1039px;
+  }
+  /*/ Second section */
 }
