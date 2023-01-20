@@ -524,3 +524,56 @@ header {
   }
   /*/ Third section */
 }
+
+@media only screen and (max-width: 1313px) {
+  /* Header */
+  header {
+    max-width: 1313px;
+    margin: 0 auto;
+  }
+
+  .header__1 {
+    display: flex;
+    gap: 30px;
+    padding-left: 110px;
+  }
+  .header__1 a,
+  .header__2 a {
+    font-size: 16px;
+  }
+
+  .a__1,
+  .a__2,
+  .a__3,
+  .a__4,
+  .a__5,
+  .a__6,
+  .a__7 {
+    font-family: Inter, sans-serif;
+    height: 22px;
+  }
+
+  .a__1,
+  .a__2,
+  .a__3 {
+    width: 52px;
+  }
+
+  .a__4 {
+    width: 101px;
+  }
+
+  .coffe__logo {
+    position: absolute;
+    left: 538px;
+    right: 970px;
+  }
+
+  .header__2 {
+    display: flex;
+    padding-left: 763px;
+    gap: 30px;
+  }
+
+  /*/ Header */
+}
