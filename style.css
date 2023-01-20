@@ -449,13 +449,13 @@ header {
   .scndtxt__2 h2 {
     position: absolute;
     width: 30px;
-    left: 627px;
+    left: 547px;
   }
 
   .scndtxt__3 h2 {
     position: absolute;
     width: 30px;
-    left: 1039px;
+    left: 959px;
   }
 
   .scndtxt__1 h3,
@@ -468,17 +468,17 @@ header {
 
   .scndtxt__1 h3 {
     position: absolute;
-    left: 261px;
+    left: 181px;
   }
 
   .scndtxt__2 h3 {
     position: absolute;
-    left: 669px;
+    left: 589px;
   }
 
   .scndtxt__3 h3 {
     position: absolute;
-    left: 1071px;
+    left: 991px;
   }
   .scndphoto__1 img,
   .scndphoto__2 img,
@@ -490,17 +490,37 @@ header {
   }
   .scndphoto__1 {
     position: absolute;
-    left: 225px;
+    left: 145px;
   }
 
   .scndphoto__2 {
     position: absolute;
-    left: 627px;
+    left: 547px;
   }
 
   .scndphoto__3 {
     position: absolute;
-    left: 1039px;
+    left: 959px;
   }
   /*/ Second section */
+
+  /* Third section */
+  .third__section {
+    position: absolute;
+    left: 145px;
+    top: 1500px;
+  }
+
+  .frst__txt {
+    padding: 120px 15px 493px 56px;
+  }
+
+  .scnd__txt {
+    padding: 154px 10px 357px 56px;
+  }
+
+  .thrd__txt {
+    padding: 314px 10px 147px 56px;
+  }
+  /*/ Third section */
 }
