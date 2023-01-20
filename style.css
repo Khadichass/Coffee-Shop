@@ -26,21 +26,26 @@ body {
     url(./fonts/Urbanist-Thin.woff2) url(./fonts/Urbanist-Thin.ttf);
 }
 
+.header-parent {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /* Header */
 header {
-  max-width: 1920px;
-  height: 125px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 33px 0;
   background: #1c1814;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__1 {
-  width: 397px;
-  height: 22px;
   display: flex;
   gap: 48px;
-  padding-left: 300px;
-  padding-top: 51px;
 }
 
 .header__1 a,
@@ -66,33 +71,12 @@ header {
 .a__6,
 .a__7 {
   font-family: Inter, sans-serif;
-  height: 22px;
-}
-
-.a__1,
-.a__2,
-.a__3 {
-  width: 52px;
-}
-
-.a__4 {
-  width: 101px;
-}
-
-.coffe__logo {
-  position: absolute;
-  left: 878px;
-  right: 970px;
-  top: 32px;
-  bottom: 33px;
 }
 
 .header__2 {
-  width: 417px;
-  height: 30px;
   display: flex;
   align-items: center;
-  padding-left: 1203px;
+
   gap: 48px;
 }
 
@@ -129,7 +113,6 @@ header {
   font-weight: 400;
   font-size: 72px;
   line-height: 130%;
-  position: absolute;
   left: 375px;
   top: 272px;
 }
@@ -143,7 +126,6 @@ header {
   font-size: 20px;
   line-height: 180%;
   text-transform: capitalize;
-  position: absolute;
   left: 375px;
   top: 492px;
 }
@@ -159,7 +141,6 @@ header {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
-  position: absolute;
   width: 208px;
   height: 70px;
   left: 375px;
@@ -171,9 +152,10 @@ header {
 /* Second section */
 
 .second__section {
-  width: 80%;
+  max-width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   gap: 36px;
 }
 
@@ -193,25 +175,21 @@ header {
   line-height: 30px;
   text-transform: uppercase;
   color: #c99e71;
-  position: absolute;
   top: 1114px;
   height: 30px;
 }
 
 .scndtxt__1 h2 {
-  position: absolute;
   width: 24px;
   left: 375px;
 }
 
 .scndtxt__2 h2 {
-  position: absolute;
   width: 30px;
   left: 777px;
 }
 
 .scndtxt__3 h2 {
-  position: absolute;
   width: 30px;
   left: 1179px;
 }
@@ -230,19 +208,16 @@ header {
 }
 
 .scndtxt__1 h3 {
-  position: absolute;
   width: 222px;
   left: 411px;
 }
 
 .scndtxt__2 h3 {
-  position: absolute;
   width: 186px;
   left: 819px;
 }
 
 .scndtxt__3 h3 {
-  position: absolute;
   width: 177px;
   left: 1221px;
 }
@@ -251,21 +226,17 @@ header {
 .scndphoto__3 img {
   width: 366px;
   height: 420px;
-  position: absolute;
   top: -80px;
 }
 .scndphoto__1 {
-  position: absolute;
   left: 375px;
 }
 
 .scndphoto__2 {
-  position: absolute;
   left: 777px;
 }
 
 .scndphoto__3 {
-  position: absolute;
   left: 1179px;
 }
 /*/ Second section */
@@ -275,11 +246,6 @@ header {
   display: flex;
   margin: 0 auto;
   width: 80%;
-  position: absolute;
-  width: 1170px;
-  height: 635px;
-  left: 375px;
-  top: 1728px;
 }
 
 .left__side {
@@ -322,7 +288,6 @@ header {
 }
 
 .frst__txt {
-  position: absolute;
   height: 22px;
   font-family: Urbanist;
   font-style: normal;
@@ -334,7 +299,6 @@ header {
 }
 
 .scnd__txt {
-  position: absolute;
   width: 480px;
   height: 124px;
   font-family: Righteous;
@@ -351,7 +315,6 @@ header {
 
 .thrd__txt {
   padding: 314px 56px 147px 56px;
-  position: absolute;
   width: 480px;
   height: 174px;
   font-family: Urbanist;
@@ -382,7 +345,6 @@ header {
   }
 
   .coffe__logo {
-    position: absolute;
     left: 650px;
     top: 32px;
     bottom: 33px;
@@ -416,14 +378,12 @@ header {
   .main__section h1 {
     font-weight: 400;
     font-size: 64px;
-    position: absolute;
     left: 225px;
     top: 272px;
   }
 
   .main__section p {
     font-size: 20px;
-    position: absolute;
     left: 225px;
     top: 472px;
   }
@@ -432,7 +392,6 @@ header {
     padding: 20px 35px;
     font-weight: 600;
     font-size: 14px;
-    position: absolute;
     width: 170px;
     left: 225px;
     top: 608px;
@@ -446,24 +405,20 @@ header {
   .scndtxt__2 h2,
   .scndtxt__3 h2 {
     font-size: 22px;
-    position: absolute;
     top: 904px;
   }
 
   .scndtxt__1 h2 {
-    position: absolute;
     width: 24px;
     left: 145px;
   }
 
   .scndtxt__2 h2 {
-    position: absolute;
     width: 30px;
     left: 547px;
   }
 
   .scndtxt__3 h2 {
-    position: absolute;
     width: 30px;
     left: 959px;
   }
@@ -477,17 +432,14 @@ header {
   }
 
   .scndtxt__1 h3 {
-    position: absolute;
     left: 181px;
   }
 
   .scndtxt__2 h3 {
-    position: absolute;
     left: 589px;
   }
 
   .scndtxt__3 h3 {
-    position: absolute;
     left: 991px;
   }
   .scndphoto__1 img,
@@ -495,28 +447,23 @@ header {
   .scndphoto__3 img {
     width: 306px;
     height: 360px;
-    position: absolute;
     top: -290px;
   }
   .scndphoto__1 {
-    position: absolute;
     left: 145px;
   }
 
   .scndphoto__2 {
-    position: absolute;
     left: 547px;
   }
 
   .scndphoto__3 {
-    position: absolute;
     left: 959px;
   }
   /*/ Second section */
 
   /* Third section */
   .third__section {
-    position: absolute;
     left: 145px;
     top: 1500px;
   }
@@ -574,7 +521,6 @@ header {
   }
 
   .coffe__logo {
-    position: absolute;
     left: 538px;
     right: 970px;
   }
@@ -593,7 +539,6 @@ header {
     width: 500px;
     height: 160px;
     font-size: 60px;
-    position: absolute;
     left: 145px;
     top: 242px;
   }
@@ -602,7 +547,6 @@ header {
     width: 490px;
     height: 68px;
     font-size: 18px;
-    position: absolute;
     left: 145px;
     top: 432px;
   }
@@ -610,7 +554,6 @@ header {
   .main__section button {
     padding: 20px 35px;
     font-size: 15px;
-    position: absolute;
     width: 180px;
     height: 60px;
     left: 145px;
@@ -625,22 +568,18 @@ header {
   .scndtxt__2 h2,
   .scndtxt__3 h2 {
     font-size: 20px;
-    position: absolute;
     top: 804px;
   }
 
   .scndtxt__1 h2 {
-    position: absolute;
     left: 105px;
   }
 
   .scndtxt__2 h2 {
-    position: absolute;
     left: 507px;
   }
 
   .scndtxt__3 h2 {
-    position: absolute;
     left: 919px;
   }
 
@@ -652,17 +591,14 @@ header {
   }
 
   .scndtxt__1 h3 {
-    position: absolute;
     left: 141px;
   }
 
   .scndtxt__2 h3 {
-    position: absolute;
     left: 549px;
   }
 
   .scndtxt__3 h3 {
-    position: absolute;
     left: 951px;
   }
   .scndphoto__1 img,
@@ -670,21 +606,17 @@ header {
   .scndphoto__3 img {
     width: 306px;
     height: 360px;
-    position: absolute;
     top: -390px;
   }
   .scndphoto__1 {
-    position: absolute;
     left: 105px;
   }
 
   .scndphoto__2 {
-    position: absolute;
     left: 507px;
   }
 
   .scndphoto__3 {
-    position: absolute;
     left: 919px;
   }
   /*/ Second section */
@@ -706,13 +638,11 @@ header {
   }
 
   .frst__txt {
-    position: absolute;
     font-size: 17px;
     padding: 100px 300px 493px 56px;
   }
 
   .scnd__txt {
-    position: absolute;
     width: 460px;
     height: 124px;
     font-size: 40px;
@@ -722,7 +652,6 @@ header {
 
   .thrd__txt {
     padding: 254px 30px 147px 56px;
-    position: absolute;
     width: 480px;
     height: 154px;
     font-size: 16px;
@@ -731,20 +660,21 @@ header {
 }
 
 @media only screen and (max-width: 1229px) {
+  header {
+    max-width: 1229px;
+    margin: 0 auto;
+  }
   /* Second section */
 
   .scndtxt__1 h2 {
-    position: absolute;
     left: 105px;
   }
 
   .scndtxt__2 h2 {
-    position: absolute;
     left: 427px;
   }
 
   .scndtxt__3 h2 {
-    position: absolute;
     left: 759px;
   }
 
@@ -756,17 +686,14 @@ header {
   }
 
   .scndtxt__1 h3 {
-    position: absolute;
     left: 141px;
   }
 
   .scndtxt__2 h3 {
-    position: absolute;
     left: 469px;
   }
 
   .scndtxt__3 h3 {
-    position: absolute;
     left: 799px;
   }
   .scndphoto__1 img,
@@ -774,21 +701,17 @@ header {
   .scndphoto__3 img {
     width: 266px;
     height: 320px;
-    position: absolute;
     top: -400px;
   }
   .scndphoto__1 {
-    position: absolute;
     left: 105px;
   }
 
   .scndphoto__2 {
-    position: absolute;
     left: 427px;
   }
 
   .scndphoto__3 {
-    position: absolute;
     left: 759px;
   }
   /*/ Second section */
@@ -810,13 +733,11 @@ header {
   }
 
   .frst__txt {
-    position: absolute;
     font-size: 16px;
     padding: 90px 300px 493px 40px;
   }
 
   .scnd__txt {
-    position: absolute;
     width: 460px;
     height: 124px;
     font-size: 38px;
@@ -826,10 +747,61 @@ header {
 
   .thrd__txt {
     padding: 244px 30px 147px 40px;
-    position: absolute;
     width: 480px;
     height: 154px;
     font-size: 16px;
   }
   /*/ Third section */
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Header */
+  header {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header__1 {
+    display: flex;
+    gap: 25px;
+    padding-left: 110px;
+  }
+  .header__1 a,
+  .header__2 a {
+    font-size: 14px;
+  }
+
+  .a__1,
+  .a__2,
+  .a__3,
+  .a__4,
+  .a__5,
+  .a__6,
+  .a__7 {
+    font-family: Inter, sans-serif;
+    height: 20px;
+  }
+
+  .a__1,
+  .a__2,
+  .a__3 {
+    width: 52px;
+  }
+
+  .a__4 {
+    width: 101px;
+  }
+
+  .coffe__logo {
+    left: 538px;
+    right: 970px;
+  }
+
+  .header__2 {
+    display: flex;
+    padding-left: 763px;
+    gap: 25px;
+  }
+
+  /*/ Header */
 }
