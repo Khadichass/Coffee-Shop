@@ -26,12 +26,13 @@ body {
     url(./fonts/Urbanist-Thin.woff2) url(./fonts/Urbanist-Thin.ttf);
 }
 
+/* Header */
+
 .header-parent {
   max-width: 1920px;
   margin: 0 auto;
 }
 
-/* Header */
 header {
   width: 80%;
   margin: 0 auto;
@@ -113,8 +114,6 @@ header {
   font-weight: 400;
   font-size: 72px;
   line-height: 130%;
-  left: 375px;
-  top: 272px;
 }
 
 .main__section p {
@@ -126,8 +125,6 @@ header {
   font-size: 20px;
   line-height: 180%;
   text-transform: capitalize;
-  left: 375px;
-  top: 492px;
 }
 
 .main__section button {
@@ -141,10 +138,6 @@ header {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
-  width: 208px;
-  height: 70px;
-  left: 375px;
-  top: 628px;
 }
 
 /*/ First section */
@@ -175,23 +168,6 @@ header {
   line-height: 30px;
   text-transform: uppercase;
   color: #c99e71;
-  top: 1114px;
-  height: 30px;
-}
-
-.scndtxt__1 h2 {
-  width: 24px;
-  left: 375px;
-}
-
-.scndtxt__2 h2 {
-  width: 30px;
-  left: 777px;
-}
-
-.scndtxt__3 h2 {
-  width: 30px;
-  left: 1179px;
 }
 
 .scndtxt__1 h3,
@@ -202,43 +178,16 @@ header {
   font-weight: 400;
   line-height: 30px;
   font-family: Righteous;
-  top: 1114px;
   font-style: normal;
-  height: 30px;
 }
 
-.scndtxt__1 h3 {
-  width: 222px;
-  left: 411px;
-}
-
-.scndtxt__2 h3 {
-  width: 186px;
-  left: 819px;
-}
-
-.scndtxt__3 h3 {
-  width: 177px;
-  left: 1221px;
-}
 .scndphoto__1 img,
 .scndphoto__2 img,
 .scndphoto__3 img {
   width: 366px;
   height: 420px;
-  top: -80px;
-}
-.scndphoto__1 {
-  left: 375px;
 }
 
-.scndphoto__2 {
-  left: 777px;
-}
-
-.scndphoto__3 {
-  left: 1179px;
-}
 /*/ Second section */
 
 /* Third section */
@@ -288,14 +237,12 @@ header {
 }
 
 .frst__txt {
-  height: 22px;
   font-family: Urbanist;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   color: #c99e71;
-  padding: 120px 365px 493px 56px;
 }
 
 .scnd__txt {
@@ -307,14 +254,13 @@ header {
   font-size: 44px;
   line-height: 130%;
   color: #ffffff;
-  padding: 154px 56px 357px 56px;
 }
+
 .scnd__txt span {
   display: block;
 }
 
 .thrd__txt {
-  padding: 314px 56px 147px 56px;
   width: 480px;
   height: 174px;
   font-family: Urbanist;
@@ -327,481 +273,3 @@ header {
   opacity: 0.8;
 }
 /*/ Third section */
-
-@media only screen and (max-width: 1440px) {
-  /* Header */
-  header {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
-  .header__1 {
-    width: 397px;
-    height: 22px;
-    display: flex;
-    gap: 40px;
-    padding-left: 150px;
-    padding-top: 51px;
-  }
-
-  .coffe__logo {
-    left: 650px;
-    top: 32px;
-    bottom: 33px;
-  }
-
-  .header__2 {
-    width: 417px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding-left: 853px;
-    gap: 48px;
-  }
-
-  .a__5 {
-    width: 53px;
-  }
-
-  .a__6 {
-    width: 44px;
-  }
-
-  .a__7 {
-    width: 68px;
-  }
-
-  /*/ Header */
-
-  /* First section */
-
-  .main__section h1 {
-    font-weight: 400;
-    font-size: 64px;
-    left: 225px;
-    top: 272px;
-  }
-
-  .main__section p {
-    font-size: 20px;
-    left: 225px;
-    top: 472px;
-  }
-
-  .main__section button {
-    padding: 20px 35px;
-    font-weight: 600;
-    font-size: 14px;
-    width: 170px;
-    left: 225px;
-    top: 608px;
-  }
-
-  /*/ First section */
-
-  /* Second section */
-
-  .scndtxt__1 h2,
-  .scndtxt__2 h2,
-  .scndtxt__3 h2 {
-    font-size: 22px;
-    top: 904px;
-  }
-
-  .scndtxt__1 h2 {
-    width: 24px;
-    left: 145px;
-  }
-
-  .scndtxt__2 h2 {
-    width: 30px;
-    left: 547px;
-  }
-
-  .scndtxt__3 h2 {
-    width: 30px;
-    left: 959px;
-  }
-
-  .scndtxt__1 h3,
-  .scndtxt__2 h3,
-  .scndtxt__3 h3 {
-    font-size: 22px;
-    top: 904px;
-    height: 30px;
-  }
-
-  .scndtxt__1 h3 {
-    left: 181px;
-  }
-
-  .scndtxt__2 h3 {
-    left: 589px;
-  }
-
-  .scndtxt__3 h3 {
-    left: 991px;
-  }
-  .scndphoto__1 img,
-  .scndphoto__2 img,
-  .scndphoto__3 img {
-    width: 306px;
-    height: 360px;
-    top: -290px;
-  }
-  .scndphoto__1 {
-    left: 145px;
-  }
-
-  .scndphoto__2 {
-    left: 547px;
-  }
-
-  .scndphoto__3 {
-    left: 959px;
-  }
-  /*/ Second section */
-
-  /* Third section */
-  .third__section {
-    left: 145px;
-    top: 1500px;
-  }
-
-  .frst__txt {
-    padding: 120px 15px 493px 56px;
-  }
-
-  .scnd__txt {
-    padding: 154px 10px 357px 56px;
-  }
-
-  .thrd__txt {
-    padding: 314px 10px 147px 56px;
-  }
-  /*/ Third section */
-}
-
-@media only screen and (max-width: 1313px) {
-  /* Header */
-  header {
-    max-width: 1313px;
-    margin: 0 auto;
-  }
-
-  .header__1 {
-    display: flex;
-    gap: 30px;
-    padding-left: 110px;
-  }
-  .header__1 a,
-  .header__2 a {
-    font-size: 16px;
-  }
-
-  .a__1,
-  .a__2,
-  .a__3,
-  .a__4,
-  .a__5,
-  .a__6,
-  .a__7 {
-    font-family: Inter, sans-serif;
-    height: 22px;
-  }
-
-  .a__1,
-  .a__2,
-  .a__3 {
-    width: 52px;
-  }
-
-  .a__4 {
-    width: 101px;
-  }
-
-  .coffe__logo {
-    left: 538px;
-    right: 970px;
-  }
-
-  .header__2 {
-    display: flex;
-    padding-left: 763px;
-    gap: 30px;
-  }
-
-  /*/ Header */
-
-  /* First section */
-
-  .main__section h1 {
-    width: 500px;
-    height: 160px;
-    font-size: 60px;
-    left: 145px;
-    top: 242px;
-  }
-
-  .main__section p {
-    width: 490px;
-    height: 68px;
-    font-size: 18px;
-    left: 145px;
-    top: 432px;
-  }
-
-  .main__section button {
-    padding: 20px 35px;
-    font-size: 15px;
-    width: 180px;
-    height: 60px;
-    left: 145px;
-    top: 538px;
-  }
-
-  /*/ First section */
-
-  /* Second section */
-
-  .scndtxt__1 h2,
-  .scndtxt__2 h2,
-  .scndtxt__3 h2 {
-    font-size: 20px;
-    top: 804px;
-  }
-
-  .scndtxt__1 h2 {
-    left: 105px;
-  }
-
-  .scndtxt__2 h2 {
-    left: 507px;
-  }
-
-  .scndtxt__3 h2 {
-    left: 919px;
-  }
-
-  .scndtxt__1 h3,
-  .scndtxt__2 h3,
-  .scndtxt__3 h3 {
-    font-size: 20px;
-    top: 804px;
-  }
-
-  .scndtxt__1 h3 {
-    left: 141px;
-  }
-
-  .scndtxt__2 h3 {
-    left: 549px;
-  }
-
-  .scndtxt__3 h3 {
-    left: 951px;
-  }
-  .scndphoto__1 img,
-  .scndphoto__2 img,
-  .scndphoto__3 img {
-    width: 306px;
-    height: 360px;
-    top: -390px;
-  }
-  .scndphoto__1 {
-    left: 105px;
-  }
-
-  .scndphoto__2 {
-    left: 507px;
-  }
-
-  .scndphoto__3 {
-    left: 919px;
-  }
-  /*/ Second section */
-
-  /* Third section */
-  .third__section {
-    width: 1070px;
-    height: 535px;
-    left: 125px;
-    top: 1308px;
-  }
-
-  .left__side {
-    width: 50%;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px;
-    margin-right: 30px;
-  }
-
-  .frst__txt {
-    font-size: 17px;
-    padding: 100px 300px 493px 56px;
-  }
-
-  .scnd__txt {
-    width: 460px;
-    height: 124px;
-    font-size: 40px;
-
-    padding: 134px 10px 357px 56px;
-  }
-
-  .thrd__txt {
-    padding: 254px 30px 147px 56px;
-    width: 480px;
-    height: 154px;
-    font-size: 16px;
-  }
-  /*/ Third section */
-}
-
-@media only screen and (max-width: 1229px) {
-  header {
-    max-width: 1229px;
-    margin: 0 auto;
-  }
-  /* Second section */
-
-  .scndtxt__1 h2 {
-    left: 105px;
-  }
-
-  .scndtxt__2 h2 {
-    left: 427px;
-  }
-
-  .scndtxt__3 h2 {
-    left: 759px;
-  }
-
-  .scndtxt__1 h3,
-  .scndtxt__2 h3,
-  .scndtxt__3 h3 {
-    font-size: 20px;
-    top: 804px;
-  }
-
-  .scndtxt__1 h3 {
-    left: 141px;
-  }
-
-  .scndtxt__2 h3 {
-    left: 469px;
-  }
-
-  .scndtxt__3 h3 {
-    left: 799px;
-  }
-  .scndphoto__1 img,
-  .scndphoto__2 img,
-  .scndphoto__3 img {
-    width: 266px;
-    height: 320px;
-    top: -400px;
-  }
-  .scndphoto__1 {
-    left: 105px;
-  }
-
-  .scndphoto__2 {
-    left: 427px;
-  }
-
-  .scndphoto__3 {
-    left: 759px;
-  }
-  /*/ Second section */
-
-  /* Third section */
-  .third__section {
-    width: 960px;
-    height: 535px;
-    left: 105px;
-    top: 1308px;
-  }
-
-  .left__side {
-    width: 50%;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 28px;
-    margin-right: 28px;
-  }
-
-  .frst__txt {
-    font-size: 16px;
-    padding: 90px 300px 493px 40px;
-  }
-
-  .scnd__txt {
-    width: 460px;
-    height: 124px;
-    font-size: 38px;
-
-    padding: 124px 10px 357px 40px;
-  }
-
-  .thrd__txt {
-    padding: 244px 30px 147px 40px;
-    width: 480px;
-    height: 154px;
-    font-size: 16px;
-  }
-  /*/ Third section */
-}
-
-@media only screen and (max-width: 1200px) {
-  /* Header */
-  header {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .header__1 {
-    display: flex;
-    gap: 25px;
-    padding-left: 110px;
-  }
-  .header__1 a,
-  .header__2 a {
-    font-size: 14px;
-  }
-
-  .a__1,
-  .a__2,
-  .a__3,
-  .a__4,
-  .a__5,
-  .a__6,
-  .a__7 {
-    font-family: Inter, sans-serif;
-    height: 20px;
-  }
-
-  .a__1,
-  .a__2,
-  .a__3 {
-    width: 52px;
-  }
-
-  .a__4 {
-    width: 101px;
-  }
-
-  .coffe__logo {
-    left: 538px;
-    right: 970px;
-  }
-
-  .header__2 {
-    display: flex;
-    padding-left: 763px;
-    gap: 25px;
-  }
-
-  /*/ Header */
-}
