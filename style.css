@@ -80,18 +80,6 @@ header {
   gap: 48px;
 }
 
-.a__5 {
-  width: 53px;
-}
-
-.a__6 {
-  width: 44px;
-}
-
-.a__7 {
-  width: 68px;
-}
-
 /*/ Header */
 
 /* First section */
@@ -280,4 +268,102 @@ header {
 /*/ Third section */
 
 @media only screen and (max-width: 1318px) {
+  /* Third section */
+  .frst__txt {
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #c99e71;
+    padding: 120px 0px 12px 56px;
+  }
+
+  .scnd__txt {
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 130%;
+    color: #ffffff;
+    margin: 12px 56px 0;
+  }
+
+  .scnd__txt span {
+    display: block;
+  }
+
+  .thrd__txt {
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+    margin: 36px 56px 147px;
+  }
+  /*/ Third section */
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Header */
+
+  .header__1 {
+    gap: 25px;
+  }
+
+  .header__2 {
+    gap: 25px;
+  }
+
+  .header__1 a,
+  .header__2 a {
+    font-size: 14px;
+  }
+
+  /*/ Header */
+
+  /* First section */
+
+  .main__section--text h1 {
+    font-family: Righteous, cursive;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 130%;
+    width: 50%;
+    padding: 147px 0 32px;
+  }
+
+  .main__section--text p {
+    width: 511px;
+    height: 72px;
+    color: #ffffff;
+    font-family: Urbanist, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+    margin-bottom: 64px;
+  }
+
+  .main__section--text-btn {
+    margin-bottom: 166px;
+  }
+  .main__section--text button {
+    display: flex;
+    align-items: center;
+    padding: 24px 40px;
+    background: #c99e71;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  /*/ First section */
 }
