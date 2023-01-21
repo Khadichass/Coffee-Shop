@@ -98,23 +98,27 @@ header {
 .main__section {
   background-image: url(./imgs/mainpagephoto.png);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   max-width: 1920px;
-  margin: 0 auto;
 }
 
-.main__section h1 {
+.main__section--text {
+  margin: 0 auto;
+  width: 80%;
+}
+.main__section--text h1 {
   font-family: Righteous, cursive;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 130%;
-  width: 40%;
+  width: 50%;
+  padding: 147px 0 32px;
 }
 
-.main__section p {
+.main__section--text p {
   width: 511px;
   height: 72px;
   color: #ffffff;
@@ -123,9 +127,13 @@ header {
   font-size: 20px;
   line-height: 180%;
   text-transform: capitalize;
+  margin-bottom: 64px;
 }
 
-.main__section button {
+.main__section--text-btn {
+  margin-bottom: 166px;
+}
+.main__section--text button {
   display: flex;
   align-items: center;
   padding: 24px 40px;
@@ -137,7 +145,6 @@ header {
   line-height: 22px;
   color: #ffffff;
 }
-
 /*/ First section */
 
 /* Second section */
