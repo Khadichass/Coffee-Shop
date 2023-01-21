@@ -101,17 +101,17 @@ header {
   background-size: cover;
   background-position: center;
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 .main__section h1 {
-  width: 529px;
-  height: 188px;
   font-family: Righteous, cursive;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 130%;
+  width: 40%;
 }
 
 .main__section p {
