@@ -578,4 +578,43 @@ header {
   }
 
   /*/ Second section */
+
+  /* Third section */
+  .third__section {
+    margin: 80px auto;
+    display: block;
+  }
+
+  .left__side {
+    gap: 20px;
+    margin: 50px;
+  }
+
+  .grid__1,
+  .grid__2 {
+    width: 180px;
+    height: 220px;
+  }
+
+  .grid__3 {
+    width: 180px;
+    height: 460px;
+  }
+  .right__side {
+    width: 380px;
+    margin: 50px;
+  }
+  .frst__txt {
+    font-size: 15px;
+  }
+
+  .scnd__txt {
+    font-size: 35px;
+  }
+
+  .thrd__txt {
+    font-size: 12px;
+    padding-bottom: 60px;
+  }
+  /*/ Third section */
 }
