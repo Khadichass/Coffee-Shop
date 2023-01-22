@@ -494,4 +494,88 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+  header {
+    width: 65%;
+    display: block;
+  }
+
+  .coffe__logo {
+    display: none;
+  }
+  .header__1 {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 35px;
+  }
+
+  .header__1 a,
+  .header__2 a {
+    font-size: 16px;
+  }
+
+  .header__2 {
+    gap: 46px;
+  }
+
+  /*/ Header */
+
+  /* First section */
+
+  .main__section--text h1 {
+    font-size: 38px;
+    width: 65%;
+    padding: 60px 0 10px;
+  }
+
+  .main__section--text p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 65%;
+  }
+  .main__section--text-btn {
+    margin-bottom: 60px;
+  }
+
+  .main__section--text button {
+    padding: 10px 15px;
+    font-size: 11px;
+  }
+  /*/ First section */
+
+  /* Second section */
+
+  .second__section {
+    gap: 10px;
+    margin: 30px 150px;
+    display: block;
+  }
+
+  .scndtxt__1 h2,
+  .scndtxt__2 h2,
+  .scndtxt__3 h2 {
+    font-size: 18px;
+    margin: 0px 10px 15px 0px;
+  }
+
+  .scndtxt__1 h3,
+  .scndtxt__2 h3,
+  .scndtxt__3 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .scndphoto__1 img,
+  .scndphoto__2 img,
+  .scndphoto__3 img {
+    width: 260px;
+    height: 314px;
+  }
+
+  .scnd__1,
+  .scnd__2,
+  .scnd__3 {
+    margin-bottom: 40px;
+  }
+
+  /*/ Second section */
 }
